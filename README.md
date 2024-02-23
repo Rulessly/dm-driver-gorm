@@ -26,7 +26,7 @@ func main() {
 
 	var user User
 
-	db.Raw("SELECT ID, USERNAME, PASSWORD FROM PERSON.PERSON WHERE ID = ?", "111").Scan(&user)
+	db.Raw("SELECT ID, USERNAME, PASSWORD FROM PERSON.PERSON WHERE ID = ?", "6").Scan(&user)
 
 	fmt.Printf("%+v", user)
 }
