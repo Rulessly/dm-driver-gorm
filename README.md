@@ -1,5 +1,5 @@
-# gorm-dm8
-达梦8 gorm驱动
+# dm-driver-gorm
+dm-driver-gorm
 
 ```go
 package main
